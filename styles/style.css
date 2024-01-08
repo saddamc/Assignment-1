@@ -436,6 +436,7 @@ header {
 }
 .subscribe{
    display: flex;
+   height: 100vh;
    align-items: center;
    margin-left: 700px;
    /* margin-bottom: 100px; */
@@ -465,3 +466,32 @@ header {
     background-color: #45a049;
 }
 
+footer{
+    background-color: #070211;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    display: flex;
+}
+footer .address{
+    display: flex;
+    color: #FFF;
+    margin:120px 0px 50px 140px;
+    text-align: left;
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: rgba(255, 255, 255, 0.15);
+
+}
