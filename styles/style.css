@@ -1,6 +1,8 @@
 body {
     font-family: 'merriweather', serif;
     background: #FFF;
+    background: center;
+    position: relative;
 }
 
 header {
@@ -24,17 +26,9 @@ header {
     display: flex;
 }
 
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-.banner-greeting {
+.hero-text h3 {
     color: #FFF;
+    text-align: center;
     font-size: 32px;
     font-weight: 400;
     width: 260px;
@@ -42,8 +36,9 @@ header {
     margin: 177px 530px 0px 530px;
 }
 
-.banner-title {
+.hero-text h1 {
     color: #FFF;
+    text-align: center;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -81,10 +76,12 @@ header {
 .welcome {
     background-image: url(../images/Vectorrr.png);
     display: flex;
-    padding: 30px 30px 0px 150px;
-    margin-top: 90px;
-    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 16px;
     flex-shrink: 0;
 }
@@ -108,9 +105,8 @@ header {
     line-height: 30px;
 }
 
-section .btn-welcome {
-    color:#FFF
-    text-align: center;
+.btn-welcome {
+    color: #FFF text-align: center;
     font-family: 'inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -125,4 +121,63 @@ section .btn-welcome {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+
+.location {
+    height: 100vh;
+    width: 1320px;
+    height: 482px;
+    background-color: rgb(255, 235, 235);
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    padding-top: 100px;
+    border-radius: 16px;
+    background-position: center;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    flex-shrink: 0;
+}
+.location-content{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 1320px;
+    height: 600px;
+    background: center;
+}
+
+.location h2 {
+    color: #F00;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    margin: 0;
+}
+
+.location span {
+    color: #070211;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.location button {
+    color: #FFF;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #F00;
+    border-radius: 8px;
+    border: 0px;
 }
