@@ -125,8 +125,6 @@ header {
 
 .location {
     height: 100vh;
-    width: 1320px;
-    height: 482px;
     background-color: rgb(255, 235, 235);
     justify-content: center;
     text-align: center;
@@ -144,7 +142,7 @@ header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     width: 1320px;
     height: 600px;
-    background: center;
+    
 }
 
 .location h2 {
@@ -350,3 +348,50 @@ header {
     background-position: right;
     margin: 108px 0px 0px 163px;
 }
+#shopping{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    flex-shrink: 0;
+    margin: 350px;
+}
+
+.shopping-description{
+    margin-bottom: 20px;
+}
+.shopping-description h2{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'inter', sans-serif;
+    margin-bottom: 0px;
+}
+.shopping-description h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.shopping-description p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 0px;
+}
+.shopping-images-top, .shopping-images-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+.shopping-images-top{
+    margin-bottom: 20px;
+}
+
