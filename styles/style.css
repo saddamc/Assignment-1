@@ -138,7 +138,8 @@ header {
     border: 1px solid #ccc;
     flex-shrink: 0;
 }
-.location-content{
+
+.location-content {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     width: 1320px;
@@ -180,4 +181,172 @@ header {
     background-color: #F00;
     border-radius: 8px;
     border: 0px;
+}
+
+.offer-content {
+    display: flex;
+    height: 100vh;
+    margin: 30px;
+    padding: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    flex-shrink: 0;
+
+
+}
+
+
+.offer-content-box h3 {
+    color: #F00;
+    text-align: left;
+    font-family: 'inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.offer-content-box h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.offer-content-box p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    margin-top: 15px;
+
+}
+
+.offer-border {
+    border-radius: 463px;
+    flex-shrink: 0;
+
+
+}
+
+.offer-pic {
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    background: #F00 -91.279px 0px / 150.038% 100% no-repeat;
+    padding: 20px;
+
+}
+
+.offer-content-right {
+    margin-left: 100px;
+}
+
+.offer-content-right h1 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.offer-content-right p {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: 0px;
+}
+
+.holiday {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    flex-shrink: 0;
+    text-align: center;
+
+}
+.holiday-container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.holiday h3 {
+    color: #070211;
+    font-family: 'inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.holiday h1 {
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.holiday span {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.holiday p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    height: 96px;
+    font-size: 20px;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.picture-container {
+    background-image: url(../images/Rectangle\ 2.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    margin-top: 0px;
+    
+}
+
+.picture-1 {
+    height: 550px;
+    width: 550px;
+    margin: 350px 0px -70px 0px;
+
+}
+
+.picture-2 {
+    background-position: right;
+    margin-right: 0px;
+    padding: 0px;
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;
+    margin: 200px -150px 50px 150px;
+
+}
+
+.picture-3 {
+    height: 400px;
+    width: 400px;
+    background-position: right;
+    margin: 108px 0px 0px 163px;
 }
