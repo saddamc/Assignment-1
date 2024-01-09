@@ -485,3 +485,43 @@ header {
     background-color: #45a049;
 }
 
+footer{
+    height: 100vh;
+    width: 1600px;
+    height: 609px;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-color: #070211;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    margin: auto;
+}
+.address{
+    display: flex;
+    text-align: justify;
+}
+
+.address-location{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 120px 0 0 140px;
+}
+.phone{
+    color: #FFF;
+    display: flex;
+    margin: 120px 291px 0 550px;
+}
+.phone img{
+    margin: 24px 24px;
+}
+.website{
+    color: #FFF;
+    display: flex; 
+    margin: 0 291px 0 550px;   
+}
+.website img{
+    margin: 24px 24px;
+}
